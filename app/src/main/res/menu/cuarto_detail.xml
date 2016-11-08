@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_settings" android:title="Calibrar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/editar" android:title="Editar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/borrar" android:title="Borrar"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/automatico" android:title="Automático"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/manual" android:title="Manual"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

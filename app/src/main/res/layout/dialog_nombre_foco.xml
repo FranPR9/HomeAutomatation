@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Nombre:"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre_nuevo"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textCursorDrawable="@null"
+        android:focusable="true"
+        android:singleLine="true"
+        android:hint="Nuevo Nombre"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok"
+            android:text="OK"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelar"
+            android:text="NO"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

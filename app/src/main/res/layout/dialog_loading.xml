@@ -1,0 +1,86 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:clickable="true"
+    android:layout_height="fill_parent"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/containRow"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Dispositivo:"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_dev"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:nextFocusDown="@+id/focos_e"
+            android:focusable="true"
+            android:singleLine="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no. Focos:"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/focos_e"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:imeOptions="actionNext"
+            android:focusable="true"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no. Persianas:"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/persianas_e"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:textCursorDrawable="@null"
+            android:imeOptions="actionDone"
+            />
+
+        </LinearLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
