@@ -2,6 +2,9 @@
 *.apk
 *.ap_
 
+# App icon
+scarlett.png
+
 # Files for the ART/Dalvik VM
 *.dex
 
